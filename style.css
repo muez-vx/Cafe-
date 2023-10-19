@@ -1,0 +1,98 @@
+/* General Typography and Layout */
+
+body {
+  font-family: sans-serif;
+  background-image: url(cofeebeans.jpg);
+  padding: 20px;
+  background-color: burlywood;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.menu {
+  width: 300px;
+  max-width: 500px;
+  background-color: burlywood;
+  width: 80%;
+  margin: 0 auto;  /* Centering the menu horizontally */
+  padding: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+  border-width: 5px;
+  border-top: 3px;
+  border-bottom: 1px;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+img {
+  display: block;
+  margin: -25px auto 0 auto;  /* Centering image and adjusting top margin */
+}
+
+/* Typography Styles */
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 0 15px 0;
+  font-family: Impact;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Impact;
+}
+
+.established {
+  font-style: italic;
+}
+
+footer {
+  font-size: 14px;
+}
+
+/* Menu Item Styles */
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.item p {
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Link Styles */
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover, a:active {
+  color: brown;
+}
+
+.address {
+  margin-bottom: 0px;
+}
